@@ -1,0 +1,128 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "MyProject2 (Debug)",
+			"request": "launch",
+			"preLaunchTask": "MyProject2 Win64 Debug Build",
+			"program": "C:\\Users\\tobio\\Desktop\\Summer Games\\Unreal Projects\\MyProject2\\Binaries\\Win64\\MyProject2-Win64-Debug.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.22",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.22\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "MyProject2 (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "MyProject2 Win64 DebugGame Build",
+			"program": "C:\\Users\\tobio\\Desktop\\Summer Games\\Unreal Projects\\MyProject2\\Binaries\\Win64\\MyProject2-Win64-DebugGame.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.22",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.22\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "MyProject2 (Development)",
+			"request": "launch",
+			"preLaunchTask": "MyProject2 Win64 Development Build",
+			"program": "C:\\Users\\tobio\\Desktop\\Summer Games\\Unreal Projects\\MyProject2\\Binaries\\Win64\\MyProject2.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.22",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.22\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "MyProject2 (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "MyProject2 Win64 Shipping Build",
+			"program": "C:\\Users\\tobio\\Desktop\\Summer Games\\Unreal Projects\\MyProject2\\Binaries\\Win64\\MyProject2-Win64-Shipping.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.22",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.22\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "MyProject2 (Test)",
+			"request": "launch",
+			"preLaunchTask": "MyProject2 Win64 Test Build",
+			"program": "C:\\Users\\tobio\\Desktop\\Summer Games\\Unreal Projects\\MyProject2\\Binaries\\Win64\\MyProject2-Win64-Test.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.22",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.22\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "MyProject2Editor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "MyProject2Editor Win64 Debug Build",
+			"program": "C:\\Program Files\\Epic Games\\UE_4.22\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+			"args": [
+				"C:\\Users\\tobio\\Desktop\\Summer Games\\Unreal Projects\\MyProject2\\MyProject2.uproject"
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.22",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.22\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "MyProject2Editor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "MyProject2Editor Win64 DebugGame Build",
+			"program": "C:\\Program Files\\Epic Games\\UE_4.22\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"C:\\Users\\tobio\\Desktop\\Summer Games\\Unreal Projects\\MyProject2\\MyProject2.uproject"
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.22",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.22\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "MyProject2Editor (Development)",
+			"request": "launch",
+			"preLaunchTask": "MyProject2Editor Win64 Development Build",
+			"program": "C:\\Program Files\\Epic Games\\UE_4.22\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"C:\\Users\\tobio\\Desktop\\Summer Games\\Unreal Projects\\MyProject2\\MyProject2.uproject"
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.22",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.22\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "clr",
+			"request": "launch",
+			"program": "C:\\Program Files\\Epic Games\\UE_4.22\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
+			"console": "externalTerminal",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=\"C:\\Users\\tobio\\Desktop\\Summer Games\\Unreal Projects\\MyProject2\\MyProject2.uproject\"",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+		}
+	]
+}
